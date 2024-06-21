@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+   background-color: rgb(166, 210, 223);
+   position: relative;
+   width: 1100px;
+   height: 870px;
+   margin: auto;
+   border-radius: 30px;
+}
+.box {
+   position: absolute;
+   border-radius: 40px;
+   top: 40px;
+   left: 50px;
+   width: 210px;
+   height: 780px;
+   background-color: #d15224;
+}
+
+
+
+ .main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 220px  470px 250px);
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 850px;
+ }
+
+ header {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding-left: 40px;
+    padding-top: 40px;
+    background:#f4f4f4;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+ }
+.img-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+ .imgs {
+   border-radius: 12px;
+ }
+ .imgs img {
+    width: 50px;
+    border-radius: 10px;
+ }
+ .img-container h3 {
+   font-size: 16px;
+   font-weight: 600;
+}
+ .img-container p {
+   font-size: 14px;
+   color: rgb(23, 33, 35);
+}
+
+/* img content end */
+
+.icon-content {
+   display: inline-block;
+   width: 100%;
+   margin-bottom: 190px;
+}
+span {
+   display: block;
+}
+.icons {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   margin-top: 9px;
+   padding: 10px;
+   gap: 10px;
+   width: 100%;
+   transition: text-indent 0.23s ease-in-out;
+}
+.icons:hover {
+   text-indent: 3px;
+   color: black;
+}
+.icons span i {
+   font-size: 30px;
+   display: flex;
+   opacity: 0.9;
+
+}
+.icons span i:hover,.icons p:hover {
+   opacity: 1;
+   color: black;
+}
+.icons p {
+   color: #5a6163;
+   display: block;
+   width: 100%;
+}
+.box-lavel {
+   display: flex;
+   align-items: center;
+   gap: 13px;
+   margin: 20px;
+}
+.box-lavel span i {
+   font-size: 25px;
+}
+
+.box-lavel p {
+   color: rgb(111, 103, 103);
+   font-size: 18px;
+}
+
+/* header end */
+
+main {
+   background: #ffff;
+   padding-left: 40px;
+   padding-top: 55px;
+}
+.main-title {
+   margin-bottom: 40px;
+}
+.text-one {
+   font-size: 14px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.text-two {
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+}
+.link{
+    margin-top: 20px;
+   margin-bottom: 50px;
+   font-size: 16px;
+ }
+ .link a {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #d15224;
+ }
+ td,th {
+   text-align: left;
+   padding: 11px 0px;
+   font-size: 13px;
+   color:#8d7f7d;
+ }
+ td, th:hover {
+   color: black;
+ }
+ .btn {
+   color:#43515e;
+   background: none;
+   padding: 7px 20px;
+   border-radius: 7px;
+   border: 1px solid #dddddd;
+ }
+ .btn:hover {
+   color: #111;
+ }
+ .tex-foot {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .tex-foot img {
+   width: 70px;
+   height: 60px;
+   border: 2px solid #f4f4f4;
+ }
+.texte {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 20px 0;
+ }
+ .tex-foot .btn {
+   margin-right: 30px;
+ }
+ .one {
+   padding: 4px 0;
+   font-weight: 800;
+ }
+
+ .tex-text {
+   font-size: 14px;
+ }
+ footer {
+   width: 100%;
+   color: #ffff;
+   background-color: #ffff;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   padding: 1.2rem;
+ }
+ .footer-home {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } 
+ .footer-btn {
+   border: 1px solid white;
+   padding: 7px 0px;
+   border-radius: 10px;
+   font-size: 14px;
+   text-align: center;
+   margin-top: 10px;
+}
+.footer-btn a {
+    text-decoration: none;
+    color: #fff;
+
+ }
+ .last-div {
+   border-radius: 20px;
+   border: 2px solid #fff;
+   padding: 1.3rem;
+   background: #d15224;
+ }
+ .foot-items {
+   padding-bottom: 24px;
+   font-size: 14px;
+ }
+ .last-div  h2 {
+   font-size: 20px;
+   padding: 10px 0;
+ }
+ .foot-toer {
+   font-size: 14px;
+ }
